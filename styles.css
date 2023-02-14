@@ -30,24 +30,29 @@ body {
 }
 
 header {
+  font-family: 'Inconsolata', monospace;
   color: #000;
   font-size: 24px;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+main {
+  font-family: monospace;
 }
 
 main a {
+  margin-top: 40px;
   background-color: #333333;
   color: white;
-  padding: 20px;
+  padding: 24px 43px;
   text-decoration: none;
   display: inline-block;
 }
 
 h1 {
-  font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -55,7 +60,6 @@ h1 {
 }
 
 p {
-  font-family: Space, monospace;
   color: #333333;
   font-size: 18px;
   line-height: 27px;
@@ -64,14 +68,17 @@ p {
 }
 
 footer {
+  font-family: 'Montserrat';
+  font-size: 14px;
   padding: 10px;
   text-align: center;
   color: #bdbdbd;
+  font-weight: 500;
 }
 
 footer a {
   color: #555555;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* apply styles below only for desktop viewport */
